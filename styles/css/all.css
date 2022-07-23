@@ -305,7 +305,7 @@ body {
 }
 
 .header {
-  background-image: url("images/banner.png");
+  background-image: url("../../images/banner.png");
   height: 958px;
   background-size: cover;
   background-position: center;
