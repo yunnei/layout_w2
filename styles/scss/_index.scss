@@ -1,0 +1,46 @@
+.header {
+  background-image: url("/images/banner.png");
+  height: 958px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    img:hover {
+      opacity: 0.8;
+    }
+  }
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  hr {
+    width: 384px;
+  }
+  .list-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      display: inline-block;
+      content: "";
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #891818;
+      margin-right: 16px;
+      padding-top: 4px;
+    }
+  }
+}
+.contact-link:hover {
+  text-decoration: underline;
+}
