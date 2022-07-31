@@ -18,9 +18,6 @@
   }
 }
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   hr {
     width: 384px;
@@ -40,6 +37,20 @@
       padding-top: 4px;
     }
   }
+  .divider {
+    width: 384px;
+    border-top: 1px solid #000;
+    margin: 24px auto;
+  }
+}
+.brand-imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.works-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 .contact-link:hover {
   text-decoration: underline;
