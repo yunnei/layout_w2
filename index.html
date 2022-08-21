@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>第二週 - 個人網站</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/css/all.css" />
   </head>
   <body>
@@ -20,7 +22,7 @@
       </h3>
       <ul class="social-links mt-10">
         <li>
-          <a href="#"><img src="./images/behance.svg" alt="behance icon" /></a>
+          <a href="#" class="hvr-pulse-grow"><img src="./images/behance.svg" alt="behance icon" /></a>
         </li>
         <li>
           <a href="#"
@@ -39,9 +41,9 @@
     </header>
     <main>
       <section class="about pt-14 pb-14">
-        <h2 class="fz-l lh-14">About</h2>
-        <img class="mt-10" src="./images/photo.png" alt="personal photo" />
-        <ul class="fz-m fw-7">
+        <h2 class="fz-l lh-14" data-aos="zoom-in">About</h2>
+        <img class="mt-10" src="./images/photo.png" alt="personal photo" data-aos="zoom-in" />
+        <ul class="fz-m fw-7" data-aos="zoom-in" >
           <li class="mt-5">Joanne Chen</li>
           <li class="mt-1">1997/10/10</li>
           <li class="lh-6 mt-5">
@@ -49,7 +51,7 @@
             Department of Visual Design
           </li>
         </ul>
-        <ul class="divider fz-m fw-7">
+        <ul class="divider fz-m fw-7" data-aos="zoom-in" >
           <li class="list-dot mt-7">Founder of ‘’XXXD Official’’</li>
           <li class="list-dot mt-7">Graphic Designer</li>
           <li class="list-dot mt-7">Graphic Intern of Hex School</li>
@@ -64,10 +66,10 @@
             引領叛逆少年開啟與社會對話的窗口 <br />
             主打概念潮流 T-Shirt
           </p>
-          <img class="mt-17" src="./images/brand_img1.png" alt="brand01" />
+          <img class="mt-17" src="./images/brand_img1.png" alt="brand01" data-aos="fade-down" />
           <div class="brand-imgs mt-10">
-            <img class="mr-6" src="./images/brand_img2.png" alt="brand02" />
-            <img src="./images/brand_img3.png" alt="brand03" />
+            <img class="mr-6" src="./images/brand_img2.png" alt="brand02" data-aos="fade-right" />
+            <img src="./images/brand_img3.png" alt="brand03" data-aos="fade-left" />
           </div>
         </div>
       </section>
@@ -78,35 +80,35 @@
           海報/廣告/攝影/LOGO/3D
         </p>
         <ul class="mt-14 works-imgs">
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img1.png" alt="海報設計/2017" />
             <p class="mt-4">海報設計/2017</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img2.png" alt="海報設計/2018" />
             <p class="mt-4">海報設計/2018</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img3.png" alt="海報設計/2018" />
             <p class="mt-4">海報設計/2018</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img4.png" alt="概念攝影/2018" />
             <p class="mt-4">概念攝影/2018</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img5.png" alt="概念攝影/2018" />
             <p class="mt-4">概念攝影/2018</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img6.png" alt="sasa 酒標設計/2019" />
             <p class="mt-4">sasa 酒標設計/2019</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img7.png" alt="攝影創作/2018" />
             <p class="mt-4">攝影創作/2018</p>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img src="./images/work_img8.png" alt="官網設計/2020" />
             <p class="mt-4">官網設計/2020</p>
           </li>
@@ -114,8 +116,8 @@
       </section>
       <section class="bg-black text-white">
         <div class="container py-14">
-          <h2 class="fz-l lh-14">Contact</h2>
-          <ul class="text-center">
+          <h2 class="fz-l lh-14" data-aos="fade-left">Contact</h2>
+          <ul class="text-center" data-aos="fade-left">
             <li class="fz-m lh-6 mt-4">
               Mail：
               <a
@@ -134,5 +136,7 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./JS/all.js"></script>
   </body>
 </html>
